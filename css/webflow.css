@@ -14,7 +14,7 @@
   padding-left: 0 !important;
 }
 #countdown li {
-  display: inline;
+  display: block;
   font-size: 1.6em;
   font-family: 'Open Sans',sans-serif;
   color:orange;
