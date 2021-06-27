@@ -5,9 +5,8 @@ function drawChart() {
 
   var data = google.visualization.arrayToDataTable([
     ['Task', 'Hours per Day'],
-    ['Presale Sale',     60000000],
     ['Team',      5000000],
-    ['Public',  435000000],
+    ['Public',  495000000],
   ]);
 
   var options = {
