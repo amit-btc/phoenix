@@ -666,6 +666,7 @@ body {
       top: 16%;
     }
     .content-wrapper.content {
+      padding-top:400px;
       margin-bottom: 200px;
     }
     .content-wrapper.content.footer {
