@@ -145,7 +145,7 @@ body {
   }
   
   .content-wrapper.hero {
-    position: fixed;
+    position: auto;
     top: 25%;
     z-index: 50;
     max-width: 1920px;
