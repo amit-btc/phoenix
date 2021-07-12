@@ -234,6 +234,7 @@ body {
     height: 2px;
     margin-right: 24px;
     background-color: #fdfdfc;
+    opacity: 0;
   }
   
   .link-to {
