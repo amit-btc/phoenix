@@ -294,7 +294,7 @@ body {
   max-width: 100%;
   margin-left: 0;
   margin-right: auto;
-  padding-left: 1em;
+  padding-left: auto;
   padding-right: 1em;
   }
   
