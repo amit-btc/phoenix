@@ -825,8 +825,7 @@ body {
     p {
       margin-bottom: 24px;
       line-height: 28px;
-      text-align: center;
-      border: solid;  
+      text-align: center;  
     }
     .content-wrapper.nav {
       padding-right: 24px;
