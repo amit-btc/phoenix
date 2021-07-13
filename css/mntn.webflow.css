@@ -87,7 +87,7 @@ body {
     top: 0%;
     right: 0%;
     bottom: auto;
-    z-index: 100;
+    z-index: 1;
     padding-top: 40px;
   }
   
