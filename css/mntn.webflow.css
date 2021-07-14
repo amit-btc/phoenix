@@ -403,7 +403,7 @@ body {
   }
   
   .hero-section {
-    position: relative;
+    position: inherit;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
