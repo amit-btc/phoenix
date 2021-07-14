@@ -94,7 +94,7 @@ body {
     right: 0%;
     bottom: auto;
     z-index: 1;
-    padding-top: 40px;
+    padding-top: 1em;
   }
   
   .logo.footer {
