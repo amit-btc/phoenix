@@ -1,0 +1,458 @@
+---
+title: Artist Platform
+layout: template
+filename: Artists.md FILE HERE
+--- 
+<!DOCTYPE html>
+<html data-wf-page="5e99e50e1c66a9720b7ceb38" data-wf-site="5e2d678660dc1a91f8ef1b43">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Phoenix</title>
+  <meta content="Phoenix | NFT Auction Platform" property="og:title" />
+  <meta content="Phoenix is an ERC-20 utility token used to access the most exclusive
+  NFT content." property="og:description" />
+  <meta content="http://drive.google.com/uc?export=view&amp;id=1A3w-CeEMQgr1Tvk6RG8-RAgnAR3TEjqf" property="og:image" />
+  <meta content="summary" name="twitter:card" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <meta content="Webflow" name="generator" />
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+  <link href="css/mntn.webflow.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;500&family=Open+Sans&display=swap" rel="stylesheet" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFJ17MQZDT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-BFJ17MQZDT');
+  </script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">
+    !(function(o, c) {
+      var n = c.documentElement,
+        t = " w-mod-";
+      (n.className += t + "js"),
+      ("ontouchstart" in o ||
+        (o.DocumentTouch && c instanceof DocumentTouch)) &&
+      (n.className += t + "touch");
+    })(window, document);
+  </script>
+  <!--<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#0B1D26" />-->
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      -o-font-smoothing: antialiased;
+    }
+
+    ::selection {
+      color: orange;
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <div data-w-id="41b39f2a-3cc6-0436-9059-9418e7f2bdc5" style="display: flex; opacity: 1" class="loading">
+    <div class="loading-wrapper">
+      Loading...
+      <!-- <img src="./images/3.gif" alt=""> -->
+    </div>
+  </div>
+  <div class="site-wrapper">
+    <div class="hero-section">
+       <div class="navbar">
+        <div class="content-wrapper nav">
+          <a href="#" class="logo w-inline-block">
+            <div class="mntn-logo w-embed">
+              <div class="logo">
+                <img src="./images/logo.jpeg" alt="" style="width:10em;">
+              </div>
+            </div>
+          </a>
+          <div class="nav-link-wrapper">
+              <a href="#purchase" class="nav-link nav w-inline-block">
+              <div>Buy Phoenix</div>
+              </a>
+              <a href="#features" class="nav-link nav w-inline-block">
+                <div>Features</div>
+              </a>
+              <a href="#tokenomics" class="nav-link nav w-inline-block">
+                <div>Tokenomics</div>
+              </a>
+              <a href="#roadmap" class="nav-link nav w-inline-block">
+                <div>Roadmap</div>
+              </a>
+              <a href="https://form.jotform.com/211938228670157" class="nav-link nav w-inline-block">
+                <div>Artist Applications</div>
+              </a>
+              <a href="https://twitter.com/phoenixtokenart" class="nav-link nav w-inline-block social-nav" target="_blank">
+                <img src="./images/twitter.svg" alt="">
+              </a>
+
+              <a href="https://t.me/phoenixtokenart" class="nav-link nav w-inline-block social-nav">
+                <img src="./images/telegram.svg" alt="">
+              </a>                                       
+          </div>
+          
+          
+          
+          <div class="account">
+            <a href="#" class="link-to hero w-inline-block" data-tooltip="Coming Soon!">
+              <div class="icon margin-right w-embed">
+                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 14C14.2091 14 16 12.2091 16 10C16 7.79086 14.2091 6 12 6C9.79086 6 8 7.79086 8 10C8 12.2091 9.79086 14 12 14ZM12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12Z" fill="currentColor"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9261 20.0557C20.397 18.235 22 15.3047 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 15.3047 3.60301 18.235 6.07388 20.0557C6.11934 20.0892 6.16509 20.1223 6.21112 20.1551C6.65997 20.4742 7.1363 20.7573 7.63587 21C8.95464 21.6407 10.4354 22 12 22C13.5646 22 15.0454 21.6407 16.3641 21C16.3909 20.987 16.4177 20.9738 16.4443 20.9606C16.9657 20.7015 17.4613 20.3982 17.9261 20.0557ZM17.2287 18.055C18.926 16.588 20 14.4194 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 14.4194 5.07401 16.588 6.77128 18.055C7.80066 16.2313 9.75654 15 12 15C14.2435 15 16.1993 16.2313 17.2287 18.055ZM15.5567 19.1679C14.8921 17.8803 13.5488 17 12 17C10.4512 17 9.10792 17.8803 8.44332 19.1679C9.51467 19.7005 10.7224 20 12 20C13.2776 20 14.4853 19.7005 15.5567 19.1679Z" fill="currentColor"></path>
+                </svg>
+              </div>
+      
+      
+      
+      
+              <div>NFT Platform</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div data-w-id="3f00c438-a0f3-3091-6407-ce77cd80edd8" class="content-wrapper hero">
+        <div class="social-links">
+          <div class="text-block">Follow us</div>
+          <div class="icon social w-embed">
+            <svg width="25" height="25" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.5 16.7L2.5 8.3C2.5 5.0968 5.09675 2.5 8.3 2.5L16.7 2.5C19.9033 2.5 22.5 5.0968 22.5 8.29999L22.5 16.7C22.5 19.9032 19.9033 22.5 16.7 22.5L8.3 22.5C5.09675 22.5 2.5 19.9032 2.5 16.7ZM4.49998 16.9C4.49998 18.8882 6.11176 20.5 8.09998 20.5L16.9 20.5C18.8882 20.5 20.5 18.8882 20.5 16.9L20.5 8.1C20.5 6.1118 18.8882 4.5 16.9 4.5L8.09998 4.5C6.11176 4.5 4.49998 6.1118 4.49998 8.1L4.49998 16.9ZM5.99998 7.25C5.99998 6.5596 6.55963 6 7.24998 6C7.94034 6 8.49998 6.5596 8.49998 7.25C8.49998 7.9404 7.94034 8.5 7.24998 8.5C6.55963 8.5 5.99998 7.9404 5.99998 7.25ZM7.49998 12.5C7.49998 9.7386 9.73856 7.5 12.5 7.5C15.2614 7.5 17.5 9.7386 17.5 12.5C17.5 15.2614 15.2614 17.5 12.5 17.5C9.73856 17.5 7.49998 15.2614 7.49998 12.5ZM9.49998 12.5C9.49998 14.1569 10.8432 15.5 12.5 15.5C14.1569 15.5 15.5 14.1569 15.5 12.5C15.5 10.8431 14.1569 9.5 12.5 9.5C10.8432 9.5 9.49998 10.8431 9.49998 12.5Z" fill="white"></path>
+            </svg>
+          </div>
+          <div class="icon social w-embed">
+            <svg width="25" height="25" viewbox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.51238 2.04079C6.85373 2.81039 7.08442 3.63759 7.18815 4.50559C6.65701 3.61969 5.81598 2.93909 4.81378 2.61869C5.30564 3.44799 5.66278 4.36639 5.8552 5.34399C5.02112 6.12679 4.5 7.24209 4.5 8.47649C4.5 10.8466 6.42147 12.7683 8.79155 12.7683C9.1279 12.7683 9.45546 12.7303 9.7696 12.6571C9.5906 16.2239 7.88203 19.3862 5.28551 21.5029C5.91935 21.8723 6.65656 22.084 7.44309 22.084C8.93204 22.084 10.2456 21.3263 11.0153 20.1748C10.9929 20.8782 10.7999 21.54 10.4785 22.1186C10.4964 22.119 10.5143 22.119 10.5324 22.119C12.6118 22.119 14.3463 20.6397 14.7406 18.6764C14.8387 19.0365 14.8912 19.4156 14.8912 19.807C14.8912 20.0836 14.8642 20.3524 14.8142 20.6145C16.5191 20.0684 17.76 18.4835 17.7945 16.6054C18.9457 18.0742 19.6318 19.9247 19.6318 21.9355C19.6318 22.2819 19.6114 22.6235 19.5717 22.9592C20.7894 21.06 21.5 18.8041 21.5 16.3805C21.5 8.48659 14.9605 4.16979 9.28918 4.16979C9.10314 4.16979 8.91805 4.17399 8.73395 4.18229C8.12886 3.34369 7.37302 2.61609 6.51238 2.04079Z" fill="white"></path>
+            </svg>
+          </div>
+        </div>
+        
+        
+       <div class="content-hero">
+          <div class="tagline">
+            <!--<div class="tagline-line"></div>-->
+          </div>
+          
+         
+          <p class="header">
+            Phoenix is an ERC-20 utility token used to buy, sell, trade and access the most exclusive
+            NFT content on the Phoenix Platform.
+            <span class="spacing"></span>
+            Phoenix has an aggressive stakeholder centric tokenomics,
+            fully locked liquidity and a well audited codebase.
+            <span class="spacing"></span>
+            <span class="highlight">
+              Phoenix will support a very precise buyback strategy to ensure fair growth and benefit holders!
+            </span><br>
+            <br>
+          </p>
+
+          <!--<div class="container" style="margin-top:-2em;margin-left:1em">
+            <div style="width:150px;float:left;text-align:center">
+              <h3>Buy Now:</h3>
+              <a href="https://app.uniswap.org/#/swap?outputCurrency=0x0651fec61d86c2d723f674bd2368ae18d89104f7&use=V2">Uniswap</a> <br />
+              <a href="https://app.1inch.io/#/1/swap/ETH/PHOENIX">1Inch</a>
+            </div>
+            <div style="width:150px;float:right;text-align:center">
+              <h3>Charts:</h3>
+              <a href="https://dex.guru/token/0x0651fec61d86c2d723f674bd2368ae18d89104f7-eth">Dexguru</a><br />
+              <a href="https://www.dextools.io/app/uniswap/pair-explorer/0x93cc6e861aae33d424ab94229b4540ac75c2e8c7">Dextools</a>
+            </div>
+          
+          
+          </div>-->
+        </div>
+          
+        <video src="./video.mp4" autoplay muted loop></video>
+        <div class="nav-slider">
+          <div class="nav-slider-links">
+            <a href="#" class="slider-link">Start</a><a href="#" class="slider-link">01</a><a href="#" class="slider-link">02</a><a href="#" class="slider-link">03</a>
+          </div>
+          <div class="indicator-line">
+            <div class="indicator"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--------------------------------- Buy Phoenix ----------------------------->
+    
+    
+    <div class="content-section"> 
+      <div id="purchase" class="content-wrapper content features-block">
+        <h2 class="head">Buy Phoenix</h2>
+        <div id="w-node-435c3832b714-0b7ceb38" class="content-text features-grid">
+          <div class="col-3">
+            <a href="https://app.uniswap.org/#/swap?outputCurrency=0x0651fec61d86c2d723f674bd2368ae18d89104f7&use=V2">
+            <object data="images/uniswap-uni-logo.png"> </object>
+            <div class="feature-title">
+              Uniswap
+            </div>
+            </a>
+          </div>
+          <div class="col-3">
+           <a href="https://app.1inch.io/#/1/swap/ETH/PHOENIX">
+            <object data="images/1inch-1inch-logo.png"> </object>
+            <div class="feature-title">
+              1Inch
+            </div>
+           </a> 
+          </div>
+          <div class="col-3">
+           <a href="https://app.sushi.com/swap?inputCurrency=0x0651fec61D86C2D723f674BD2368aE18D89104f7">
+            <object data="images/sushiswap-sushi-logo.png"> </object>
+            <div class="feature-title">
+              Sushi Swap
+            </div>
+            </a>
+           </div>
+           </div>
+      </div>
+          
+      <!--------------------------------- Charts ----------------------------->
+      
+       <div id="charts" class="content-wrapper content features-block">
+        <h2 class="head">Charts</h2>
+        <div id="w-node-435c3832b714-0b7ceb38" class="content-text features-grid">
+         <div class="col-3">
+           <a href="https://app.1inch.io/#/1/swap/ETH/PHOENIX">
+            <object data="images/dextools_logo_header_large_dark_35(1).png"> </object>
+            <div class="feature-title">
+              DexTools
+            </div>
+           </a> 
+          </div>
+          <div class="col-3">
+           <a href="https://etherscan.io/token/0x0651fec61d86c2d723f674bd2368ae18d89104f7">
+            <object data="images/etherscan-logo-circle.png"> </object>
+            <div class="feature-title">
+              EtherScan
+            </div>
+           </a> 
+          </div>
+        </div>
+       </div>
+       
+  
+  
+      <!--------------------------- Features ------------------------------>
+      
+  
+      <div id="features" class="content-wrapper content features-block">
+        <h2 class="head">Features</h2>
+        <div id="w-node-435c3832b714-0b7ceb38" class="content-text features-grid">
+          <div class="col-3">
+            <object data="./images/security.svg"> </object>
+            <div class="feature-title">
+              Fully audited smart contract
+            </div>
+          </div>
+          <div class="col-3">
+            <object data="./images/token.svg"> </object>
+            <div class="feature-title">
+              NFT Auction Platform
+            </div>
+          </div>
+          <div class="col-3">
+            <object data="./images/padlock.svg"> </object>
+            <div class="feature-title">
+              Liquidity locked forever
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <!--------------------------- Roadmap ------------------------------>
+      
+      <div id="tokenomics" class="content-wrapper content first-block">
+        <div class="grid">
+          <div id="w-node-435c3832b714-0b7ceb38" class="content-text">
+            <div class="count">$</div>
+            <div class="tagline">
+              <div class="tagline-line"></div>
+              <h5 class="heading-tagline">Tokenomics</h5>
+            </div>
+            <h2 class="head">Total Supply 500,000,000</h2>
+            <p>
+              <li class="tokenomics-li">Team: <span>5,000,000</span></li>
+            <ul class="private-sale-ul">
+              <li class="private-li">Team tokens locked for 1 month
+              </li>
+            </ul>
+            <p class="token-tax">15% tax on each transaction that will be used for aggressive marketing and buyback.</p>
+            </p>
+            <p class="token-tax"> Tokens that are bought back will be used for airdrops and giveaways on Telegram and Twitter.</p>
+            <!--<a href="#" class="link-to hero more w-inline-block">
+                  <div>read more</div>
+                  <div class="icon-scroll more w-embed">
+                    <svg
+                      width="16"
+                      height="24"
+                      viewbox="0 0 16 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                </a> -->
+          </div>
+          <img src="images/unnamed.gif" alt="">
+
+        </div>
+      </div>
+      <div id="roadmap" class="content-wrapper content">
+        <div class="grid">
+          <div id="w-node-435c3832b714-0b7ceb38" class="content-text">
+            <div class="count">P.1</div>
+            <div class="tagline">
+              <div class="tagline-line"></div>
+              <h5 class="heading-tagline">Phase 1</h5>
+            </div>
+            <h2 class="head">Launch</h2>
+            <ul class="roadmap">
+              <li class="roadmap-points">
+                Launch Website (Done)
+              </li>
+              <li class="roadmap-points">
+                Uniswap Listing (Done)
+              </li>
+              <li class="roadmap-points">
+                Coinsniper, Coinlisting, Gemfinder listings (Done)
+              </li>
+              <li class="roadmap-points">
+                Etherscan - (Done)
+              </li>
+              <li class="roadmap-points">
+                Coinmarketcap - Applied
+              </li>
+              <li class="roadmap-points">
+                Coingecko - Applied
+              </li>
+              <!--<li class="roadmap-points">
+                Etherscan - Applied
+              </li>-->
+            </ul>
+          </div>
+          <img src="./images/1.gif" alt="">
+        </div>
+      </div>
+      <!--<div id="Content" class="content-wrapper content">
+        <div class="grid">
+          <div id="w-node-435c3832b714-0b7ceb38" class="content-text">
+            <div class="count">Q3</div>
+            <div class="tagline">
+              <div class="tagline-line"></div>
+              <h5 class="heading-tagline">Roadmap</h5>
+            </div>
+            <h2 class="head">Platform - Onboarding</h2>
+            <ul class="roadmap">
+              <li class="roadmap-points">
+                Limit to 2 auctions per week - Quality over quantity
+              </li>
+              <li class="roadmap-points">
+                Artist incentive model
+              </li>
+              <li class="roadmap-points">
+                Marketing art through story mode
+              </li>
+              <li class="roadmap-points">
+                Collaboration network
+              </li>
+            </ul>
+          </div>
+          <img src="./images/2.gif" alt="">
+        </div>
+      </div>-->
+      <div id="Content" class="content-wrapper content">
+        <div class="grid">
+          <div id="w-node-435c3832b714-0b7ceb38" class="content-text">
+            <div class="count">P.2</div>
+            <div class="tagline">
+              <div class="tagline-line"></div>
+              <h5 class="heading-tagline">Roadmap</h5>
+            </div>
+            <h2 class="head">Phase 2</h2>
+            <ul class="roadmap">
+              <li class="roadmap-points">
+                Artist profile webpages (In progress)
+              </li>
+              <li class="roadmap-points">
+                NFT market place using $Phoenix tokens to buy/sell/trade NFTS (in progress)
+              </li>
+              <li class="roadmap-points">
+                NFT Minting platform (in progress)
+              </li>
+              <li class="roadmap-points">
+                NFT design and creating platform - (in concept)
+              </li>
+            </ul>
+          </div>
+          <img src="./images/3.gif" alt="">
+        </div>
+      </div>
+
+  
+      <div class="footer">
+        <div class="content-wrapper content footer">
+          <div class="grid footer">
+            <div id="w-node-1aa862d1e6f1-0b7ceb38" class="footer-left">
+              <div class="links">
+                <div id="w-node-bec01f52c19d-0b7ceb38" class="footer-links">
+                  <h4>Join the community</h4>
+                  <!--<a href="mailto:sean@phoenixtoken.art">Send us an email - sean@phoenixtoken.art</a>-->
+                  <a href="https://twitter.com/phoenixtokenart" target="_blank" class="footer-link">Twitter</a>
+                  <a href="https://t.me/phoenixtokenart" target="_blank" class="footer-link"> Telegram Chat</a>
+                  <a target="_blank" href="mailto:sean@phoenixtoken.art" class="footer-link">Email Us</a>
+                  <a href="https://twitter.com/phoenixtokenart" class="footer-link" target="_blank">
+                <img src="./images/twitter.svg" alt="">
+              </a>
+                </div>
+                <!--<a href="#" class="logo footer w-inline-block">
+                  <div class="mntn-logo w-embed">
+                    <img src="./images/logo.jpeg" alt="">
+                  </div>
+                </a>-->
+
+              </div>
+              <div id="w-node-4532b953dd02-0b7ceb38" class="footer-right">
+                <div class="links">
+                  <div id="w-node-bec01f52c19d-0b7ceb38" class="footer-links">
+                    <!--<h4>Join the community</h4>
+                   <a href="mailto:sean@phoenixtoken.art">Send us an email - sean@phoenixtoken.art</a>
+                    <a href="https://twitter.com/phoenixtokenart" target="_blank" class="footer-link">Twitter</a>
+                     <a href="https://t.me/phoenixtokenart" target="_blank" class="footer-link"> Telegram Chat</a>
+                      <a target="_blank" href="mailto:sean@phoenixtoken.art" class="footer-link">Contact Us</a>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5e2d678660dc1a91f8ef1b43" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+      </script>
+      <script src="js/webflow.js" type="text/javascript"></script>
+      <script src="js/custom.js" type="text/javascript"></script>
+      <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
