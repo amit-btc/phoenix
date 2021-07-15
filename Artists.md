@@ -1,8 +1,3 @@
----
-title: Artist Platform
-layout: template
-filename: Artists.md FILE HERE
---- 
 <!DOCTYPE html>
 <html data-wf-page="5e99e50e1c66a9720b7ceb38" data-wf-site="5e2d678660dc1a91f8ef1b43">
 
