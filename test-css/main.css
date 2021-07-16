@@ -2533,10 +2533,10 @@ input, select, textarea {
 		text-align: center;
 		padding: 3em 0 0 0;
 		background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(164,66,35,1) 73%, rgba(176,171,47,1) 100%);
-		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-		background-position: top left,					top left,					top left;
+		
+		
 		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
+		
 	}
 
 		#header h1 {
