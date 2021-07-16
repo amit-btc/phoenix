@@ -2148,7 +2148,7 @@ input, select, textarea {
 			text-align: center;
 			cursor: default;
 			background-color: #37c0fb;
-			background-image: -moz-url('../images/Uniswap_Logo.svg.png');
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('../images/Uniswap_Logo.svg.png');
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url('../images/1inch-1inch-logo.png');
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
