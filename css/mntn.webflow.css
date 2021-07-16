@@ -1,5 +1,5 @@
 body {
-    font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     color: #fff;
     font-size: 1.2em;
     line-height: 32px;
@@ -8,7 +8,7 @@ body {
   
   .header{
       font-size: 1.5em;
-      font-family: 'Qahiri', sans-serif;
+      font-family: 'Otomanopee One', sans-serif;
       color:#fff;
       padding: .9em;
   }
@@ -36,7 +36,7 @@ body {
   h2 {
     margin-top: 0px;
     margin-bottom: 24px;
-   font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     
       : 64px;
     line-height: 110%;
@@ -293,7 +293,7 @@ body {
   
   .h1-title {
     margin-bottom: 32px;
-   font-family: 'Qahiri', sans-serif;
+   font-family: 'Otomanopee One', sans-serif;
   }
   
   .mntn-logo {
@@ -1071,31 +1071,31 @@ body {
   }
   
   @font-face {
-    font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     src: url('../fonts/SansSerif-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     src: url('../fonts/SansSerif-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     src: url('../fonts/SansSerif-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     src: url('../fonts/SerifDisplay-Semibold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
   }
   @font-face {
-    font-family: 'Qahiri', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     src: url('../fonts/SerifDisplay-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
