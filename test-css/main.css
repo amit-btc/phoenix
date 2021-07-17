@@ -2533,7 +2533,8 @@ input, select, textarea {
 		#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-                background: radial-gradient(circle, rgba(241,162,45,1) 13%, rgba(250,10,10,1) 64%, rgba(209,186,57,1) 100%); 
+                /*background: radial-gradient(circle, rgba(241,162,45,1) 13%, rgba(250,10,10,1) 64%, rgba(209,186,57,1) 100%);*/
+		background: black;
 		background-size: 100% 6em,
 		
 	}
