@@ -2734,7 +2734,10 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			/*background: radial-gradient(circle, rgba(241,162,45,1) 13%, rgba(250,10,10,1) 64%, rgba(209,186,57,1) 100%);*/
-			background: black;
+			background: #6C0303;
+			background: -webkit-radial-gradient(top, #6C0303, #000000);
+			background: -moz-radial-gradient(top, #6C0303, #000000);
+			background: radial-gradient(to bottom, #6C0303, #000000);
 			background-size: 100% 6em,
 			
 		}
