@@ -2529,13 +2529,13 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
+		#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(201,56,10,1) 54%, rgba(176,171,47,1) 100%);
+                background: radial-gradient(circle, rgba(241,162,45,1) 13%, rgba(250,10,10,1) 64%, rgba(209,186,57,1) 100%); 
+		background-size: 100% 6em,
 		
-		
-		background-size: 100% 6em,					100% 6em,					auto;
+	}
 		
 	}
 
