@@ -2736,7 +2736,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #37c0fb;
+			background-color: rgba(27, 27, 27, 0.75);
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
