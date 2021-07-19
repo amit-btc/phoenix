@@ -148,6 +148,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.75em;
 		letter-spacing: -0.025em;
+		
 	}
 
 	h3 {
@@ -2716,6 +2717,13 @@ input, select, textarea {
 			#banner header .button {
 				vertical-align: middle;
 				margin-left: 1em;
+			}
+			#banner h2 {
+				display: inline-block;
+				margin: 0;
+				font-size: 1.25em;
+				vertical-align: middle;
+				background-color:yellow;
 			}
 
 /* Wrapper */
