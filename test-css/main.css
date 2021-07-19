@@ -2718,7 +2718,7 @@ input, select, textarea {
 				vertical-align: middle;
 				margin-left: 1em;
 			}
-			#banner h2 {
+			#banner h2 .intro {
 				display: inline-block;
 				margin: 0;
 				font-size: 1.25em;
