@@ -2829,6 +2829,7 @@ input, select, textarea {
 
 			#banner {
 				height: 24em;
+				background
 			}
 
 	}
@@ -3363,3 +3364,11 @@ input, select, textarea {
 			}
 
 	}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
