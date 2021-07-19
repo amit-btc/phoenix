@@ -2829,7 +2829,7 @@ input, select, textarea {
 
 			#banner {
 				height: 24em;
-				background
+				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
 			}
 
 	}
@@ -2875,6 +2875,8 @@ input, select, textarea {
 
 			#banner {
 				height: 20em;
+				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
+				
 			}
 
 		/* Wrapper */
@@ -2987,6 +2989,7 @@ input, select, textarea {
 
 			#banner {
 				height: 20em;
+				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
 			}
 
 				#banner header h2 {
@@ -3280,6 +3283,7 @@ input, select, textarea {
 
 			#banner {
 				height: 18em;
+				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
 			}
 
 		/* Wrapper */
