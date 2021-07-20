@@ -2065,6 +2065,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		border-radius: 5px;
+		padding-left: 10px;
 	}
 
 		.image img {
