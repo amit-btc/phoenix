@@ -3359,7 +3359,22 @@ input, select, textarea {
 					padding: 20px;
 					
 				}
-
+		
+			#banner h2.intro {
+				display: inline-block;
+				margin-top: 2em;
+				font-size: 1.25em;
+				vertical-align: middle;
+				background-color:grey;
+				opacity: 50%;
+				padding: 1em;
+				height: 150px;
+        			overflow-x: hidden;
+			        overflow-y: auto;
+       		                text-align: center;
+                                padding: 20px;
+				
+			}
 		/* Wrapper */
 
 			.wrapper {
