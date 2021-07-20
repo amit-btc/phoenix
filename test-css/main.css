@@ -2727,6 +2727,11 @@ input, select, textarea {
 				background-color:gray;
 				opacity: 50%;
 				padding: 1em;
+        			height: 80px;
+				overflow-y: scroll;
+        			text-color: red;
+        			padding-top: 20em;
+				
 			}
 
 /* Wrapper */
