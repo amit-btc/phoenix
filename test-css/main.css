@@ -2887,10 +2887,19 @@ input, select, textarea {
 
 			#banner {
 				height: 20em;
-				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
-				
+				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");	
 			}
-
+			#banner h2.intro {
+				display: inline-block;
+				margin-top: 2em;
+				font-size: 1.75em;
+				vertical-align: middle;
+				background-color:transparent;
+				opacity: 85%;
+       				text-align: center;
+				line-height: 1.9em;
+				color: white;
+		}
 		/* Wrapper */
 
 			.wrapper {
