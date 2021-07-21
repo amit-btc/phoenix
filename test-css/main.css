@@ -3371,7 +3371,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 40em;
+				height: 50em;
 				background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
 			}
 
@@ -3381,6 +3381,7 @@ input, select, textarea {
 				}
 		
 			#banner h2.intro {
+			        background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
 				display: inline-block;
 				margin-top: 2em;
 				font-size: 1.75em;
@@ -3395,6 +3396,7 @@ input, select, textarea {
        		                text-align: center;
 				line-height:3em;
 				color: white;
+				
 				
 			}
 		/* Wrapper */
