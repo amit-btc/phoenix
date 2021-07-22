@@ -37,7 +37,7 @@
 
 		// Bar.
 			$(
-				'<div id="Phoenix Token">' +
+				'<div id="titlebar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
 					'<span class="title">' + $('#logo').html() + '</span>' +
 				'</div>'
