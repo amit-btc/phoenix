@@ -3041,7 +3041,31 @@ input, select, textarea {
 				#banner header h2 {
 					display: block;
 				}
-
+				#banner h2.intro {
+			  	
+				display: inline-block;
+				margin-top: 2px;
+				font-size: 1.35em;
+				vertical-align: middle;
+				background-color:transparent;
+				opacity: 99%;
+				padding-bottom: 25em;
+				padding-top: inherit; 
+				height: 180px;
+        			overflow-x: hidden;
+			  	overflow-y: auto;
+        			text-align: center;
+				line-height: -moz-block-height;
+				color: white;
+				transition: opacity 0.1s;
+				padding-left: 1em;
+				padding-right: 1em;
+					
+			}
+		#banner h2.intro div img {
+			  display: block;
+			  margin: auto;
+		}
 				#banner header .button {
 					margin: 1em 0 0 0;
 				}
@@ -3416,9 +3440,11 @@ input, select, textarea {
 					
 			}
 		#banner h2.intro div img {
-			  display: none;
+			  display: block;
+			  margin: auto;
+		
 		}
-		}
+	}
 		/* Wrapper */
 
 			.wrapper {
