@@ -3442,6 +3442,7 @@ input, select, textarea {
 		#banner h2.intro div img {
 			  display: block;
 			  margin: auto;
+			  padding-top: 5em;
 		
 		}
 	}
