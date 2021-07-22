@@ -3391,7 +3391,7 @@ input, select, textarea {
 				opacity: 99%;
 				padding-bottom: 25em;
 				padding-top: inherit; 
-				height: 25em;
+				height: 180px;
         			overflow-x: hidden;
 			  	overflow-y: auto;
         			text-align: center;
