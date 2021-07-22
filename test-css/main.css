@@ -3384,10 +3384,10 @@ input, select, textarea {
 				}
 		
 			#banner h2.intro {
-			  	background-image: url("images/PhoenixRed-removebg.png");
+			  	
 				display: inline-block;
 				margin-top: 2px;
-				font-size: 1.75em;
+				font-size: 1.35em;
 				vertical-align: middle;
 				background-color:transparent;
 				opacity: 99%;
