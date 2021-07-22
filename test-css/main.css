@@ -2681,7 +2681,7 @@ input, select, textarea {
 		background-image: url("/images/nader-abushhab-uZIaeo2cfio-unsplash.jpg");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		height: 45em;
 		text-align: center;
 		position: relative;
 	}
@@ -2730,6 +2730,7 @@ input, select, textarea {
        				text-align: center;
 				line-height: 1.9em;
 				color: white;
+				padding: 5em 5em 1em 5em;
 				
 			}
 	#banner h2.intro div img {
