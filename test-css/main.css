@@ -2732,6 +2732,10 @@ input, select, textarea {
 				color: white;
 				
 			}
+	#banner h2.intro div img {
+			  display: none;
+		}
+		}
 
 /* Wrapper */
 
@@ -2859,7 +2863,10 @@ input, select, textarea {
 				color: white;
 				padding: 0 10em 0 10em;
 	}
-
+	#banner h2.intro div img {
+			  display: none;
+		}
+		}
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
@@ -2913,6 +2920,10 @@ input, select, textarea {
        				text-align: center;
 				line-height: 1.9em;
 				color: white;
+		}
+			#banner h2.intro div img {
+			  display: none;
+		}
 		}
 		/* Wrapper */
 
@@ -3404,6 +3415,10 @@ input, select, textarea {
 				padding-right: 1em;
 					
 			}
+		#banner h2.intro div img {
+			  display: none;
+		}
+		}
 		/* Wrapper */
 
 			.wrapper {
