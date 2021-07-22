@@ -3058,8 +3058,8 @@ input, select, textarea {
 				line-height: -moz-block-height;
 				color: white;
 				transition: opacity 0.1s;
-				padding-left: 1em;
-				padding-right: 1em;
+				padding-left: 5em;
+				padding-right: 5em;
 					
 			}
 		#banner h2.intro div img {
