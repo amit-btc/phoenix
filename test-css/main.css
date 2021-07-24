@@ -2584,8 +2584,10 @@ input, select, textarea {
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+
 @media screen and (max-width: 842px)
-		#header h1 a {
+		 #header h1 a {
+			       display: none;
 				font-size: 1.5em;
 				letter-spacing: -0.025em;
 				border: 0;
