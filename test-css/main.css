@@ -2119,7 +2119,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 842px) {
 			.image.video {
 			display: none;
 	  		position: relative;
