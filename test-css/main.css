@@ -3890,26 +3890,6 @@ input, select, textarea {
 		}
 	}
 
-/* Image */
-
-
-.image.video {
-	  display: none;
-	  position: relative;
-    	  margin: 0 auto;
-          background-color: transparent;        
-          padding-top: 3em;
-		}
-
-	.image.video video {
-		width: 100%;
-    		max-height: 100%;
-    		box-sizing: border-box;
-	  	border-radius: 2em;
-	  	opacity: .5;
-		}
-
-
 		/* Wrapper */
 
 			.wrapper {
