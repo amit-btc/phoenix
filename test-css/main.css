@@ -3873,6 +3873,15 @@ input, select, textarea {
 		
 		}
 	}
+		/* Image */
+		.image.video {
+	  		display:none;
+		}
+
+			.image.video video {
+			display:none;
+		}
+
 		/* Wrapper */
 
 			.wrapper {
