@@ -2087,6 +2087,7 @@ input, select, textarea {
     	  margin: 0 auto;
           background-color: transparent;        
           padding-top: 3em;
+	  max-width: 40%;
 		}
 
 	.image.video video {
