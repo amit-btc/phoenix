@@ -2083,17 +2083,17 @@ input, select, textarea {
 		}
 .image.video {
 	  position: relative;
-    margin: 0 auto;
-    background-color: transparent;        
-    padding-top: 3em;
+    	  margin: 0 auto;
+          background-color: transparent;        
+          padding-top: 3em;
 		}
 
-.image.video video {
+	.image.video video {
 		width: 100%;
-    max-height: 100%;
-    box-sizing: border-box;
-	  border-radius: 2em;
-	  opacity: .5;
+    		max-height: 100%;
+    		box-sizing: border-box;
+	  	border-radius: 2em;
+	  	opacity: .5;
 		}
 			.image.left img {
 				display: block;
