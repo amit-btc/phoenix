@@ -2106,7 +2106,7 @@ input, select, textarea {
 
 			.image.fit img {
 				display: block;
-				max-width: 60%;
+				max-width: 50%;
 			}
 
 		.image.featured {
