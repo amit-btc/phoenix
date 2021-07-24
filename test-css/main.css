@@ -1982,10 +1982,7 @@ input, select, textarea {
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
-		@media screen and (max-width: 842px){
-		#header h1 #logo {
-			display:none;
-			}
+
 }
 	footer {
 		margin: 0 0 3em 0;
@@ -2587,7 +2584,12 @@ input, select, textarea {
 				letter-spacing: -0.025em;
 				border: 0;
 			}
-
+@media screen and (max-width: 842px)
+		#header h1 a {
+				font-size: 1.5em;
+				letter-spacing: -0.025em;
+				border: 0;
+			}
 	#nav {
 		cursor: default;
 		background-color: #333;
