@@ -1963,7 +1963,7 @@ input, select, textarea {
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
 	}
-
+	
 	header.major {
 		text-align: center;
 		margin: 0 0 2em 0;
@@ -1982,7 +1982,10 @@ input, select, textarea {
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
-
+		@media screen and (max-width: 842px){
+		header h1 {
+			display:none;
+			}
 	footer {
 		margin: 0 0 3em 0;
 	}
