@@ -2121,10 +2121,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			.image.video {
-	  position: relative;
-    	  margin: 0 auto;
-          background-color: transparent;        
-          padding-top: 3em;
+			display: none;
+	  		position: relative;
+    	  		margin: 0 auto;
+          		background-color: transparent;        
+          		padding-top: 3em;
 		}
 
 	.image.video video {
